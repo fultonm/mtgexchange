@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="container">
 
-        <h1>Bootstrap grid examples</h1>
+        <h1>MTG Exchange. Nuff said.</h1>
         <p className="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
 
         <h3>Five grid tiers</h3>
