@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
@@ -11,7 +12,7 @@ class App extends Component {
           <h2>MTG Exchange</h2>
         </div>
         <p className="App-intro">
-          Welcome to the future home of the next-generation trading platform for Magic: The Gathering!
+          Welcome to the future home of the next-generation Magic: The Gathering commerce platform!
         </p>
       </div>
     );
