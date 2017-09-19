@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import CardInventoryTable from './CardInventoryTable'
+
 import './App.css';
 
 class App extends Component {
-
   render() {
     return (
       <div className="container">
 
         <h1>MTG Exchange. Nuff said.</h1>
         <p className="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
+
+        <CardInventoryTable />
 
         <h3>Five grid tiers</h3>
         <p>There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts at a minimum viewport size and automatically applies to the larger devices unless overridden.</p>

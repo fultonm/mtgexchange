@@ -1,0 +1,27 @@
+.card-row-header {
+    background-color: #82a4dd;
+    margin-bottom: 0px;
+}
+.floatingHeader {
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    z-index: 10;
+}
+.card-row {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 0.9em;
+    margin-bottom: 0px;
+    border: 0px;
+    padding: 0px;
+    height: 60px;
+    
+}
+.card-cell {
+    display: table;
+    color: #f0f0f0;
+}
+.card-cell-span {
+    display: table-cell;
+    vertical-align: middle;
+}
