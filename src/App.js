@@ -11,7 +11,7 @@ class App extends Component {
         <h1>MTG Exchange. Nuff said.</h1>
         <p className="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
 
-        <CardInventoryTable />
+        <CardInventoryTable endpoint="http://mtgtr.herokuapp.com/card?name=seek" />
 
         <h3>Five grid tiers</h3>
         <p>There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts at a minimum viewport size and automatically applies to the larger devices unless overridden.</p>
